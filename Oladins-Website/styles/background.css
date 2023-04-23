@@ -1,0 +1,18 @@
+@keyframes gradient {
+    0% {
+      background-color: #5b7aff;
+    }
+    50% {
+      background-color: #ffcd00;
+    }
+    100% {
+      background-color: #5b7aff;
+    }
+  }
+  
+  body {
+    animation-name: gradient;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
